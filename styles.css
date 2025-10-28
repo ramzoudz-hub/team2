@@ -1,0 +1,44 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table, th, td {
+    border: 3px solid;
+    border-collapse: collapse;
+    padding: 4px;
+    overflow-x: auto;
+}
+table{
+    margin: 30px auto;
+}
+.time{
+    background-color: #E1E0E0;
+}
+th{
+    background-color: #E1E0E0;
+
+}
+.asd{
+    background-color: #4dc3ff;
+}
+.mn{
+    background-color: #ff884d;
+
+}
+.si{
+    background-color: #4DFFE1;
+
+}
+.ado{
+    background-color: #4D6BFF;
+
+}
+.tg{
+    background-color: #884DFF;
+
+}
+.lm{
+    background-color: #ff4dc4;
+
+}
