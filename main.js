@@ -13,10 +13,10 @@ cards.forEach(card => {
     saveBtn.addEventListener("click", () => {
         const time = inputs[0].value;
         const subject = inputs[1].value;
-        const group = inputs[2].value;
+        const Sale = inputs[2].value;
 
         card.insertAdjacentHTML("beforeend", `
-            <p><strong>${time}</strong> — ${subject} (${group})</p>
+            <p><strong>${time}</strong> — ${subject} (${Sale})</p>
         `);
 
         inputsDiv.style.display = "none";
