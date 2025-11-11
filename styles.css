@@ -1,44 +1,104 @@
-*{
-    font-family: sans-serif;
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #ddd;
+    background: #FFFFFF;
+}
+
+header img {
+    width: 48px;
+    height: 42px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+main {
+    margin: 40px auto;
+    width: 850px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+.card {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 25px;
+    width: 180px;
     text-align: center;
+    background: white;
+    transition: 0.3s;
 }
 
-table, th, td {
-    border: 3px solid;
-    border-collapse: collapse;
-    padding: 4px;
-    overflow-x: auto;
+.card:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    transform: translateY(-4px); 
 }
-table{
-    margin: 30px auto;
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
 }
-.time{
-    background-color: #E1E0E0;
+.card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
 }
-th{
-    background-color: #E1E0E0;
 
+.card button.add {
+    background: #0088FF;
+    color: white;
 }
-.asd{
-    background-color: #4dc3ff;
-}
-.mn{
-    background-color: #ff884d;
 
+.card button.add:hover {
+    background: #2563eb;
 }
-.si{
-    background-color: #4DFFE1;
 
+
+
+.inputs input {
+    width: 100%;
+    margin: 6px 0;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
 }
-.ado{
-    background-color: #4D6BFF;
 
+.inputs .save {
+    background: #00C0E8;
+    color: white;
 }
-.tg{
-    background-color: #884DFF;
 
+.inputs .save:hover {
+    background: #0284c7;
 }
-.lm{
-    background-color: #ff4dc4;
 
+
+.card button.edit:hover {
+    background: #0d8f6a;
+}
+
+#downloadPdf{
+    display: block;
+    padding: 5px;
+    background: #FF383C;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px;
+}
+#downloadPdf:hover{
+    background: #BF2A2D;
 }
